@@ -1,0 +1,52 @@
+table{
+    margin: 0 auto;
+    margin-top: 2%
+}
+
+.gameName{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2%
+}
+.newGame{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2%
+}
+.turn,.winner{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  font-size: 20px
+}
+  
+
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    
+  }
+  .blue{
+   
+    background-color: blue
+  }
+  .red{
+    background-color: red
+  }
+
+  .circle:hover {
+      background-color: blueviolet
+
+  }
+  .square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
